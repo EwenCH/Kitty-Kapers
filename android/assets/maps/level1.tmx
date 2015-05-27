@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="colourblocks" tilewidth="32" tileheight="32">
+  <image source="../images/colourblocks.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="grass_blocks" tilewidth="32" tileheight="32">
+  <image source="../images/grass_blocks.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="grass_edges" tilewidth="32" tileheight="32">
+  <image source="grass_edges.png" width="160" height="32"/>
+ </tileset>
+ <layer name="background" width="40" height="8" opacity="0.2">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi6gAkHe7AAkJuYoXgwuo8ZDVMDUNOf1HYfExKmFKC7jVI3MmHBg8V92NxGqRup5T58biPGjQDlqACP
+  </data>
+ </layer>
+ <layer name="ground" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALaABYgZsVBcyKpY8OjDp1G1suGh02MeQA+BAC2
+  </data>
+ </layer>
+ <layer name="red" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <layer name="green" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <layer name="blue" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <objectgroup name="coins">
+  <object x="239" y="207.25">
+   <ellipse/>
+  </object>
+  <object x="335.75" y="208">
+   <ellipse/>
+  </object>
+  <object x="751.75" y="175">
+   <ellipse/>
+  </object>
+  <object x="848" y="174.5">
+   <ellipse/>
+  </object>
+  <object x="944.25" y="175.25">
+   <ellipse/>
+  </object>
+  <object x="1168.25" y="207.5">
+   <ellipse/>
+  </object>
+  <object x="1199.75" y="207.25">
+   <ellipse/>
+  </object>
+  <object x="1231.75" y="207.25">
+   <ellipse/>
+  </object>
+  <object x="288.25" y="175">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

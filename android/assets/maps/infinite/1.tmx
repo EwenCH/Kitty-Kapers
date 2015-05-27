@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass_blocks" tilewidth="32" tileheight="32">
+  <image source="../../images/grass_blocks.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="colourblocks" tilewidth="32" tileheight="32">
+  <image source="../../images/colourblocks.png" width="96" height="32"/>
+ </tileset>
+ <layer name="ground" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFXACMRMOGhGHHx8apjwiCHTAwUAIZwAKg==
+  </data>
+ </layer>
+ <layer name="red" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <layer name="green" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <layer name="blue" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <objectgroup name="coins">
+  <object x="876" y="241">
+   <ellipse/>
+  </object>
+  <object x="909" y="242">
+   <ellipse/>
+  </object>
+  <object x="528" y="240">
+   <ellipse/>
+  </object>
+  <object x="561" y="240">
+   <ellipse/>
+  </object>
+  <object x="593" y="239">
+   <ellipse/>
+  </object>
+  <object x="367" y="240">
+   <ellipse/>
+  </object>
+  <object x="401" y="241">
+   <ellipse/>
+  </object>
+  <object x="434" y="241">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

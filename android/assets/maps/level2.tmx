@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="colourblocks" tilewidth="32" tileheight="32">
+  <image source="../images/colourblocks.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="grass_blocks" tilewidth="32" tileheight="32">
+  <image source="../images/grass_blocks.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="grass_edges" tilewidth="32" tileheight="32">
+  <image source="grass_edges.png" width="160" height="32"/>
+ </tileset>
+ <layer name="background" width="30" height="8" opacity="0.2">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DgARMeTA3AjAcPhN0MVLIPADXIAEs=
+  </data>
+ </layer>
+ <layer name="red" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4C+gBkLHgXkAQAWvAAQ
+  </data>
+ </layer>
+ <layer name="green" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAVMGHBo2BwAgAUKAAL
+  </data>
+ </layer>
+ <layer name="blue" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDEbAiAWjAwAETAAG
+  </data>
+ </layer>
+ <layer name="ground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUApYgJgVSrMg8bGJobPR1YAwJw572JDMBWEAIagAdQ==
+  </data>
+ </layer>
+ <objectgroup name="coins">
+  <object x="303" y="143.667">
+   <ellipse/>
+  </object>
+  <object x="336.333" y="144.333">
+   <ellipse/>
+  </object>
+  <object x="368" y="144.333">
+   <ellipse/>
+  </object>
+  <object x="496" y="112.333">
+   <ellipse/>
+  </object>
+  <object x="529.333" y="112">
+   <ellipse/>
+  </object>
+  <object x="560.333" y="112">
+   <ellipse/>
+  </object>
+  <object x="720.333" y="206.333">
+   <ellipse/>
+  </object>
+  <object x="752" y="207.333">
+   <ellipse/>
+  </object>
+  <object x="784.333" y="207">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

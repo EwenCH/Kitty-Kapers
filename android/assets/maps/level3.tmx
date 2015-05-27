@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="colourblocks" tilewidth="32" tileheight="32">
+  <image source="../images/colourblocks.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="grass_blocks" tilewidth="32" tileheight="32">
+  <image source="../images/grass_blocks.png" width="64" height="32"/>
+ </tileset>
+ <layer name="background" width="40" height="8" opacity="0.2">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwUYceDBBAaL25jQaGQw0G4DAVzuwxZ+yGqw+YcZjY3OJwag68PmPlzpD5/7mInEQwUAAIGsAFs=
+  </data>
+ </layer>
+ <layer name="red" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAWYCmFT9o2DoAgBKGAAl
+  </data>
+ </layer>
+ <layer name="green" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx0wYcFDEWDzx1D30yigLQAAROgAGw==
+  </data>
+ </layer>
+ <layer name="blue" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiegJEAHgWjYBSMAgAl0AAJ
+  </data>
+ </layer>
+ <objectgroup name="coins">
+  <object x="175.5" y="143">
+   <ellipse/>
+  </object>
+  <object x="207.5" y="143.5">
+   <ellipse/>
+  </object>
+  <object x="239.75" y="143.5">
+   <ellipse/>
+  </object>
+  <object x="338" y="79">
+   <ellipse/>
+  </object>
+  <object x="368" y="79.25">
+   <ellipse/>
+  </object>
+  <object x="495" y="13">
+   <ellipse/>
+  </object>
+  <object x="528.25" y="12.75">
+   <ellipse/>
+  </object>
+  <object x="559.75" y="12.25">
+   <ellipse/>
+  </object>
+  <object x="624.25" y="111">
+   <ellipse/>
+  </object>
+  <object x="655.5" y="111.5">
+   <ellipse/>
+  </object>
+  <object x="688.25" y="111.5">
+   <ellipse/>
+  </object>
+  <object x="847.25" y="109.75">
+   <ellipse/>
+  </object>
+  <object x="896" y="79">
+   <ellipse/>
+  </object>
+  <object x="943.5" y="111.75">
+   <ellipse/>
+  </object>
+  <object x="1104.5" y="112.25">
+   <ellipse/>
+  </object>
+  <object x="1135.5" y="112.5">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="ground" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALaABYgZkWjcWFc8tjECZlFDAaZAQA6jACn
+  </data>
+ </layer>
+</map>

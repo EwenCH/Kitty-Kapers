@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="colourblocks" tilewidth="32" tileheight="32">
+  <image source="../images/colourblocks.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="grass_blocks" tilewidth="32" tileheight="32">
+  <image source="../images/grass_blocks.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="grass_edges" tilewidth="32" tileheight="32">
+  <image source="grass_edges.png" width="160" height="32"/>
+ </tileset>
+ <layer name="background" width="50" height="8" opacity="0.2">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4AiYoHgh7kWlqmDdc/cEIxbQE2PzBjINNrHmj/mBgAABVvAA3
+  </data>
+ </layer>
+ <layer name="red" width="50" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4AOaBdgAFYKi4nRkHHgUjEwAAPTAAGQ==
+  </data>
+ </layer>
+ <layer name="green" width="50" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABmHDggbJ7FIyCUTB4AQBcwAAX
+  </data>
+ </layer>
+ <layer name="blue" width="50" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDDXAiIZHwSgYCAAAEEgABQ==
+  </data>
+ </layer>
+ <layer name="ground" width="50" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAIEYBlg+9mAmBXqDhgNYxMCyG7nor7TSAJceDCy32A0J5pebOyBAPj8AQC7OADz
+  </data>
+ </layer>
+ <objectgroup name="coins">
+  <object x="272.333" y="175.333">
+   <ellipse/>
+  </object>
+  <object x="368.667" y="143.333">
+   <ellipse/>
+  </object>
+  <object x="849.333" y="111.333">
+   <ellipse/>
+  </object>
+  <object x="944" y="80">
+   <ellipse/>
+  </object>
+  <object x="1040" y="46">
+   <ellipse/>
+  </object>
+  <object x="1488" y="144">
+   <ellipse/>
+  </object>
+  <object x="1520" y="144">
+   <ellipse/>
+  </object>
+  <object x="1551.33" y="142">
+   <ellipse/>
+  </object>
+  <object x="1297.33" y="110.667">
+   <ellipse/>
+  </object>
+  <object x="1328" y="110.667">
+   <ellipse/>
+  </object>
+  <object x="1360.67" y="78.6667">
+   <ellipse/>
+  </object>
+  <object x="433.333" y="80">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

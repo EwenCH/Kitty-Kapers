@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass_blocks" tilewidth="32" tileheight="32">
+  <image source="../images/grass_blocks.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="colourblocks" tilewidth="32" tileheight="32">
+  <image source="../images/colourblocks.png" width="96" height="32"/>
+ </tileset>
+ <layer name="background" width="40" height="8" opacity="0.2">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BoARYozYwkxoxNIRCw0tgt2ACl7mPBIkYJQDePFu7DpZ8YMBDug/EBZEgAWg==
+  </data>
+ </layer>
+ <layer name="red" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B0wIoFjxQw2P09mNyELZ0MJvcBAISoAFE=
+  </data>
+ </layer>
+ <layer name="green" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx2wYMGDCVDLPbTy52ALr1FAPAAAeWAAMQ==
+  </data>
+ </layer>
+ <layer name="blue" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowATMOPAo4C+YKjFwVByKwgAAFS8AC4=
+  </data>
+ </layer>
+ <layer name="ground" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <objectgroup name="coins">
+  <object x="112" y="175">
+   <ellipse/>
+  </object>
+  <object x="128" y="140.5">
+   <ellipse/>
+  </object>
+  <object x="177" y="143">
+   <ellipse/>
+  </object>
+  <object x="495.5" y="79.5">
+   <ellipse/>
+  </object>
+  <object x="527.5" y="80">
+   <ellipse/>
+  </object>
+  <object x="561" y="80">
+   <ellipse/>
+  </object>
+  <object x="624" y="78.5">
+   <ellipse/>
+  </object>
+  <object x="672" y="31.5">
+   <ellipse/>
+  </object>
+  <object x="722" y="81">
+   <ellipse/>
+  </object>
+  <object x="1168" y="143.5">
+   <ellipse/>
+  </object>
+  <object x="1232" y="177">
+   <ellipse/>
+  </object>
+  <object x="1264.5" y="177.5">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
