@@ -21,7 +21,7 @@ public class Game extends ApplicationAdapter {
 	public final static String GAME_TITLE = "Kitty Kapers!";
 	public final static int GAME_HEIGHT = 360;
 	public final static int GAME_WIDTH = 640;
-	public static final String GAME_VERSION = "1.0";
+	public static final String GAME_VERSION = "1.1";
 	public static final float STEP = 1 / 60f;
 
 	// This will need to be updated if more maps are added.
@@ -62,6 +62,7 @@ public class Game extends ApplicationAdapter {
 		res.loadTexture("images/goldcoin.png", "coin");
 		res.loadTexture("images/colourblocks.png", "blocks");
 		res.loadTexture("images/button.png", "buttons");
+		res.loadTexture("images/button_old.png", "oldButtons");
 		res.loadTexture("images/stars2.png", "stars");
 		
 		// Background set up

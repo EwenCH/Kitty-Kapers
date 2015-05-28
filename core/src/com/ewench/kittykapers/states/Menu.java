@@ -80,13 +80,16 @@ public class Menu extends GameState {
 		TextureRegion buttonReg = new TextureRegion(
 				Game.res.getTexture("buttons"), 64, 0, 270, 64);
 
+		TextureRegion oldButtonReg = new TextureRegion(
+				Game.res.getTexture("oldButtons"), 64, 64, 256, 64);
+
 		// Maps Button
 		mapButton = new Button(buttonReg, (Game.GAME_WIDTH / 4), 180, cam);
 		mapButton.setText("Maps");
 
 		// Infinite Button
-		infiniteButton = new Button(buttonReg, (Game.GAME_WIDTH / 4) * 3,
-				180, cam);
+		infiniteButton = new Button(oldButtonReg, (Game.GAME_WIDTH / 4) * 3, 180,
+				cam);
 		infiniteButton.setText("Infinite");
 
 		// Character Selection Button
@@ -97,7 +100,7 @@ public class Menu extends GameState {
 		settingsButton = new Button(buttonReg, (Game.GAME_WIDTH / 4) * 3, 100,
 				cam);
 		settingsButton.setText("Settings");
-		
+
 		// Needed so the buttons work after the play state.
 		cam.setToOrtho(false, Game.GAME_WIDTH, Game.GAME_HEIGHT);
 
@@ -125,7 +128,7 @@ public class Menu extends GameState {
 		// Infinite button logic.
 		infiniteButton.update(dt);
 		if (infiniteButton.isClicked()) {
-			gsm.setState(GameStateManager.INFINITE);
+			//gsm.setState(GameStateManager.INFINITE);
 		}
 
 		// Character selection button logic.
