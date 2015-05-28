@@ -8,5 +8,3 @@ Kitty Kapers is a small game made with the LibGDX framework for Android and Desk
 
 * Syncing between computers
 * Git Practice
-
-XX FIXED #3 XX
