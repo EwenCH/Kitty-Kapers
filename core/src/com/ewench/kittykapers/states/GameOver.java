@@ -48,8 +48,6 @@ public class GameOver extends GameState {
 			highScore = Game.prefs.getInteger("highscoreInfinite", score);
 		}
 		
-		System.out.println(highScore);
-		
 		if (Play.level >= 1) {
 			score = Play.score;
 		} else {
