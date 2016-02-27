@@ -3,12 +3,12 @@
  <tileset firstgid="1" name="colourblocks" tilewidth="32" tileheight="32">
   <image source="../images/colourblocks.png" width="96" height="32"/>
  </tileset>
- <tileset firstgid="4" name="grass_blocks" tilewidth="32" tileheight="32">
-  <image source="../images/grass_blocks.png" width="64" height="32"/>
+ <tileset firstgid="4" name="ground_new" tilewidth="32" tileheight="32">
+  <image source="ground_new.png" width="160" height="64"/>
  </tileset>
  <layer name="background" width="40" height="8" opacity="0.2">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwUYceDBBAaL25jQaGQw0G4DAVzuwxZ+yGqw+YcZjY3OJwag68PmPlzpD5/7mInEQwUAAIGsAFs=
+   eJxjYBgFAwUYceDBBAaL25jQaGQw0G4DAVzuwxZ+yGqw+YcZjY3OJwag68PmPlzpD5/7mInEMMAKxGxE0AMFAKAkAJI=
   </data>
  </layer>
  <layer name="red" width="40" height="8">
@@ -78,7 +78,7 @@
  </objectgroup>
  <layer name="ground" width="40" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALaABYgZkWjcWFc8tjECZlFDAaZAQA6jACn
+   eJxjYBgFo2AUjALaAFYgZiNAU0sNKXpgbABKzADb
   </data>
  </layer>
 </map>

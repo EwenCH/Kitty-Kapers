@@ -3,15 +3,12 @@
  <tileset firstgid="1" name="colourblocks" tilewidth="32" tileheight="32">
   <image source="../images/colourblocks.png" width="96" height="32"/>
  </tileset>
- <tileset firstgid="4" name="grass_blocks" tilewidth="32" tileheight="32">
-  <image source="../images/grass_blocks.png" width="64" height="32"/>
- </tileset>
- <tileset firstgid="6" name="grass_edges" tilewidth="32" tileheight="32">
-  <image source="grass_edges.png" width="160" height="32"/>
+ <tileset firstgid="4" name="ground_new" tilewidth="32" tileheight="32">
+  <image source="ground_new.png" width="160" height="64"/>
  </tileset>
  <layer name="background" width="50" height="8" opacity="0.2">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4AiYoHgh7kWlqmDdc/cEIxbQE2PzBjINNrHmj/mBgAABVvAA3
+   eJxjYBgFo2D4AiYoHgh7kWlSADMO84aCP5hxsJHNQzeLEYphgIVIu0gB2PyBz63U8Ac+wArEbFAaxmYnQt9g8wcAkfwAcg==
   </data>
  </layer>
  <layer name="red" width="50" height="8">
@@ -31,7 +28,7 @@
  </layer>
  <layer name="ground" width="50" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAIEYBlg+9mAmBXqDhgNYxMCyG7nor7TSAJceDCy32A0J5pebOyBAPj8AQC7OADz
+   eJxjYBgFo2AUjAIE4B5g+1mAmBWI2bDQhACy23mo7zSSACcQc+DAyP6CsdmR9PLgYA8EwOcPANbEAPQ=
   </data>
  </layer>
  <objectgroup name="coins">
