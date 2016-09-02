@@ -5,7 +5,7 @@
 Kitty Kapers is a small platformer game made with the LibGDX framework and Java for Android and Desktop.<br>
 
 
-Tap the left half of the screen to jump, and tap the right half to change your current colour.
+Tap the left half of the screen (**Q**) to jump, and tap the right half (**E**) to change your current colour.
 Your current colour has to match a platform if you want to land on it.
 
 
